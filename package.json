@@ -17,6 +17,13 @@
     "author": "KNU-K",
     "license": "MIT",
     "homepage": "https://github.com/KNU-K/changelog-gen#readme",
+    "keywords": [
+        "changelog",
+        "auto-generate",
+        "angular-commit-convention",
+        "commit-convention",
+        "release-notes"
+    ],
     "dependencies": {
         "commander": "^12.1.0"
     },
