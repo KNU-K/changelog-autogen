@@ -14,7 +14,7 @@ class InitCommand {
 
         let lastLoggedCommit = fs.readFileSync(LAST_COMMIT_FILE, "utf8").trim();
 
-        let newCommits = Git.getNewCommits(lastLoggedCommit);
+        let newCommits = GitManager.getNewCommits(lastLoggedCommit);
 
         if (!newCommits) {
             console.log("새로운 커밋이 없습니다.");
