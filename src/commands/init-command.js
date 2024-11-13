@@ -4,7 +4,9 @@ const fs = require("fs");
 const { LOG_FILE, LAST_COMMIT_FILE } = require("../constant");
 const FileManager = require("../util/file-manager");
 const GitManager = require("../util/git-manager");
-
+/**
+ * init command
+ */
 class InitCommand {
     static #doAction() {
         FileManager.checkAndCreateFile(LOG_FILE, "# Change Log\n\n");

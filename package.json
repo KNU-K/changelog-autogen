@@ -1,6 +1,6 @@
 {
     "name": "changelog-autogen",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Project to quickly create Changelog.md automatically based on Agular commit convention",
     "main": "index.js",
     "bin": {
