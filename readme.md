@@ -1,6 +1,6 @@
 # Changelog Autogen 🎉
 
-![npm version](https://img.shields.io/npm/v/changelog-autogen)
+![npm version](https://img.shields.io/npm/v/@knu-k/changelog-autogen)
 
 `changelog-autogen`은 Angular 커밋 규칙을 기반으로 자동으로 `CHANGELOG.md` 파일을 생성하는 도구입니다. 이 도구는 커밋 메시지를 분석하여 자동으로 변경 사항을 기록하고, 프로젝트의 릴리즈 노트를 손쉽게 관리할 수 있게 도와줍니다.
 
@@ -27,7 +27,7 @@
 이 프로젝트는 npm 패키지로 배포됩니다. 다음 명령어를 통해 설치할 수 있습니다:
 
 ```bash
-npm install -g changelog-autogen
+npm install -g @knu-k/changelog-autogen
 ```
 
 ## 📝 사용법
