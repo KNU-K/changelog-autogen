@@ -1,0 +1,26 @@
+{
+    "name": "changelog-autogen",
+    "version": "1.0.0",
+    "description": "Project to quickly create Changelog.md automatically based on Agular commit convention",
+    "main": "index.js",
+    "bin": {
+        "changelog-gen": "./index.js"
+    },
+    "scripts": {
+        "start": "node ./index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KNU-K/changelog-autogen.git"
+    },
+    "author": "KNU-K",
+    "license": "MIT",
+    "homepage": "https://github.com/KNU-K/changelog-gen#readme",
+    "dependencies": {
+        "commander": "^12.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.14.0"
+    }
+}
